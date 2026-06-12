@@ -18,3 +18,11 @@ My goal is to become internship-ready in 12 months.
 Laptop:
 - AMD Ryzen 3 PRO 3300U
 - 8GB RAM
+
+# Day 4
+- laptop's too weak to instal VMs so i installed WSL
+- installed Ubuntu as well 
+- Created a folder 'Soc_lab'
+
+# next step
+Learn networking fundamental 
