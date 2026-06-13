@@ -1,1 +1,31 @@
+- Created a LinkedIn account
+- Created a gitHub account
+- Created a roadmap document
+- Created a cybersecurity workspace
+- Organised folders
+- Checked laptop specifications
 
+Laptop:
+- AMD Ryzen 3 PRO 3300U
+- 8GB RAM
+
+# Day 4
+- laptop's too weak to instal VMs so i installed WSL
+- installed Ubuntu as well 
+- Created a folder 'Soc_lab'
+
+# next step
+Learn networking fundamental 
+
+# Day 5
+what I learned:
+- The networking fundamentals
+- Difference between Private and Public IP addresses and under what criteria they could change
+- DNS works in browsers, as well the advantages and the disadvantages of DNS cache
+- TCP focuses on accuracy over speed and UDP focuses on vice versa
+- TCP ensures accuracy with: three-way handshake, packet tracking number and assembled properly after being sent
+- UDP ensures speed with: no handshake, no re-sent lost packets
+- ports ensure that data do not get mixed up when a device is handling multiple activities over same router connection
+- port 80: less secure (HTTP, no padlock) 
+- port 443: more secure for banking and shopping (HTTPS, has padlock)
+- port 25 & 587: specifically for sending emails
