@@ -1,23 +1,22 @@
 # LockedIn
 I am a first-year cybersecurity student.
 My goal is to become internship-ready in 12 months.
+I am documenting my journey till im internship ready.
 
 ## Current Focus
 - SOC
 - blue team
 - Incident Response
 
-## Week 1
-- Created a LinkedIn account
-- Created a gitHub account
-- Created a roadmap document
-- Created a cybersecurity workspace
-- Organised folders
-- Checked laptop specifications
+## Project Targets 
+- Home security Lab
+- Vulnerability scanner in python
+- Web application security
+- SIEM/SOC project (WAZUH)
+- Threat Detection with python
+- Capstone security assessment
 
-Laptop:
-- AMD Ryzen 3 PRO 3300U
-- 8GB RAM
+
 
 # Day 4
 - laptop's too weak to instal VMs so i installed WSL
