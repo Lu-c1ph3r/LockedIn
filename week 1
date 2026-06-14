@@ -10,7 +10,7 @@ Laptop:
 - 8GB RAM
 
 # Day 4
-- laptop's too weak to instal VMs so i installed WSL
+- laptop's too weak to install VMs so i installed WSL
 - installed Ubuntu as well 
 - Created a folder 'Soc_lab'
 
@@ -29,3 +29,13 @@ what I learned:
 - port 80: less secure (HTTP, no padlock) 
 - port 443: more secure for banking and shopping (HTTPS, has padlock)
 - port 25 & 587: specifically for sending emails
+
+#Day 6
+what i learned: 
+line of command "cat" that writes the content of a file
+PORT 53: DNS
+port 22: SSH
+SOC analyst chain: observe, findings, hypothesis, verification
+the line of command: ip addr shows up two interfaces (lo and Eth0)
+loopback ip adress is usually 127.0.0.1
+if src ip addr is 127.0.0.1, then traffic is coming from same device 
