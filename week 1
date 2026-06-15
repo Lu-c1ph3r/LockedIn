@@ -31,11 +31,25 @@ what I learned:
 - port 25 & 587: specifically for sending emails
 
 #Day 6
+- what i learned: 
+- line of command "cat" that writes the content of a file
+- PORT 53: DNS
+- port 22: SSH
+- SOC analyst chain: observe, findings, hypothesis, verification
+- the line of command: ip addr shows up two interfaces (lo and Eth0)
+- loopback ip adress is usually 127.0.0.1
+- if src ip addr is 127.0.0.1, then traffic is coming from same device 
+
+#Day 7
+intro to SOC investigstion
+
 what i learned: 
-line of command "cat" that writes the content of a file
-PORT 53: DNS
-port 22: SSH
-SOC analyst chain: observe, findings, hypothesis, verification
-the line of command: ip addr shows up two interfaces (lo and Eth0)
-loopback ip adress is usually 127.0.0.1
-if src ip addr is 127.0.0.1, then traffic is coming from same device 
+- what logs are
+- Failed login attempt 
+- why repeated failures are suspicious
+- how analysts use evidence
+- line of command "whoami" and "date"
+- multiple failed logins followed by a successful login can indicate a compromise and should be investigated
+- I should make my conclusion by the sequence of events
+- SOC analyst patterns and evidence rather than making assumptions.
+- 
