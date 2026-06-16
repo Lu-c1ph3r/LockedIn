@@ -1,0 +1,24 @@
+## what i learned:
+
+### false positive
+- when an alert appears suspicious but turns out to be a legitimate activity
+
+### Suspicious Sequences
+
+A sequence of events can be more important than individual events.
+
+Example:
+Successful Login
+→ Password Changed
+→ MFA Disabled
+→ Login From New Country
+→ Large File Download
+
+This may indicate potential compromise and should be investigated.
+
+## Linux Commands
+- history
+- clear
+
+## Biggest Lesson
+Follow evidence before making conclusions.
