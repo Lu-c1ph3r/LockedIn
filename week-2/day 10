@@ -1,0 +1,15 @@
+## what i learned: 
+
+### soc alert triage
+  - not every security alert is an attack (false positive)
+  - thinking more like a soc analyst to invesigate alerts using evidence rather than making assumptions 
+  - 5 questions to anser during investigation: who? where? when? what happened? notice pattern?
+
+### linux command line
+    - ps command displays the process currently running on a linux system 
+    - this is importnat in soc analytics as it could be used to detect
+      - malware
+      - suspicious applications
+      - unauthorised programs
+      - unuknown scripts 
+    
