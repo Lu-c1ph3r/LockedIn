@@ -1,0 +1,29 @@
+## what i learnt:
+
+### Event IDs as emergency service codes
+- 4624: successful login
+- 4625: failed login 
+- 4723: password changed
+- 4724: password reset
+
+### Logon types tells how users login 
+- 2: physically logged in with a keyboard
+- 3: network login
+- 10: through remote desktop 
+
+### Event correlation is a concept of a technique used to analyse sequence of log activties rather than one log
+- this is useful for identifying hidden patterns, connections or relationships between seemingly unrelated events
+
+### Alert(possibility) VS Incident(confirmed)
+- an alert is something suspicious that requires investigation 
+- an Incident is a confirmed security event that has been verified
+
+##linux, new command line "top"
+### top displays live view of process currently running
+- useful for monitoring CPU and RAM usage
+- detect potentially malicious or unusual activity
+- identify resource-intensive processes
+
+## PS(static output) vs TOP(dynamic output) command lines 
+- ps provides a snapshot of running process
+- top provides a live, and continuously updating view of running processes
