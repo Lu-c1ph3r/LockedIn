@@ -1,0 +1,12 @@
+##topics learnt: 
+- indicator of compromise IOC
+- Event vs alert vs incident
+- threat hunting
+- MITRE ATT&CK basics 
+      three technique: brute force, credential access, data exfiltration
+- data exfiltration
+
+### linux 
+- ss -tuln displays listening networks ports and services
+- shows which service are acceptiong connections
+- helps identify unexpected open ports
