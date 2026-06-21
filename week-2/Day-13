@@ -1,0 +1,20 @@
+i hadn't done much analysing today but i did learn some more event ID and SOC vocab
+
+## linux command line
+  -netstat -tuln, similar to ss -tuln, the cpmmand line shows TCP and UDP ports listening for incoming connection
+  - netstat(older) vs ss(newer)
+    
+## Documentation Importance as a SOC analyst
+    - continuity, id like to think of it as a relay baton
+    - Evidence, helps conclusion also if it was documented then it never happened
+    - Legal and compliance, creates an audit and also proof of investigation
+
+
+## SOC vocab
+  - Authentication: verify someones idnetity
+  - Authorisation: determining what's allowed access
+  - Privilage escalation: Obtaining Higher permission
+
+## Event ID
+    - 4634: user logged off.
+    - 4728: user added to a security group.
