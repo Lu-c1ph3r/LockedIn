@@ -1,0 +1,11 @@
+what i learnt: 
+
+##SIEM
+##IOC vs IOA
+- ioc: something bad has likely happened
+- ioa: someone is trying to do something bad
+
+##LINUX "grep"
+- grep searches for what really matters instead of reading every line of logs
+- grep -i "failed" auth.log finds logs with failed attempts 
+- "-i" is important for case sensitivity
