@@ -1,0 +1,16 @@
+## new concept: triage
+- deciding which alert deserves immediate attention
+
+
+## Linux & laying foundation for first actual project
+- use of mkdir for creating a new folder
+- use of touch tp create files in a folder
+  .README
+  .investigation
+  .attack-log
+- use of cat tp read the content of "attack-log.txt"
+- use of grep to search up "failed" login attempts 
+
+
+## interview question of the day
+- "Why are multiple failed logins followed by a successful login more concerning than a single failed login?"
