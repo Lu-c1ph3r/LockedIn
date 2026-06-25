@@ -1,1 +1,33 @@
+00:41 Failed Login - User: James
 
+00:42 Failed Login - User: James
+
+00:43 Failed Login - User: James
+
+00:44 Failed Login - User: James
+
+00:45 Successful Login - User: James
+
+00:46 Password Changed
+
+00:47 Added to Domain Admins
+
+00:49 15GB Download
+
+00:50 Logoff
+
+00:10 Successful Login - User: Sarah
+
+00:12 Opened Outlook
+
+00:14 Opened Teams
+
+00:18 Logged Off
+
+00:25 Successful Login - User: David
+
+00:26 Opened Excel
+
+00:30 Saved Spreadsheet
+
+00:35 Logged Off
