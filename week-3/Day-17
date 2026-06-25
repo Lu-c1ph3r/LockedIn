@@ -1,0 +1,7 @@
+## not much done today except from setting up the git clone repo on the ubuntu terminal
+
+##linux new command i learnt:
+- cd ~[directory name or location]
+- ls -R [directory]: lists the files in the chosen location
+- cp -v ~[source] ~[destination]: helped copy the content into a different location
+- cat ~[location]: reads out the contents of the files  
