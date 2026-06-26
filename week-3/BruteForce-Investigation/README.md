@@ -2,7 +2,7 @@
 
 ## Objective
 
-simulate and invrestigate a potential brute force attack using manually generated authentications logs.
+simulate and investigate a potential brute force attack using manually generated authentications logs.
 
 ## Skills practiced
 
