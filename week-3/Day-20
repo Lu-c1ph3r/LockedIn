@@ -1,0 +1,33 @@
+today i practised triaging a suspicious file execution alert
+
+## scenario
+- a file called invoice_update.exe was executed from downloads folder
+- this file had an unknown hash reputation
+- connected to an external IP
+- created a file Appdata
+- and temporarily disbaled windows defender
+
+## Suspicious Indicators
+- The file was executed from the Downloads folder.
+- The file hash reputation was unknown.
+- The file connected to an external IP address.
+- A new file was created in AppData.
+- Windows Defender was temporarily disabled.
+
+## Evidence Still Needed
+- Check the file hash reputation.
+- Investigate the external IP address.
+- Review process logs.
+- Inspect the file created in AppData.
+- Check whether other devices executed the same file.
+
+## Recommended Actions
+- Isolate HR-LAPTOP-07 from the network.
+- Collect evidence such as file hash, process details, and network connections.
+- Submit the file or hash for malware analysis.
+- Re-enable Windows Defender and run a full scan.
+- Check other devices for the same file.
+- Block the external IP if confirmed malicious.
+
+## Lesson Learned
+When malware is suspected, containment is important. The analyst should stop possible spread while collecting evidence.
