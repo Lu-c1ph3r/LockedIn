@@ -1,0 +1,33 @@
+practiced identifying phishing indicators in a suspicious email
+
+## scenerio
+- sender posed as microsoft and told the user to rest thier password urgently
+
+## verdict
+- I assessed the email as suspicious. This appeared to be a phising email.
+
+## Phishing indicator
+- the sender mispelt "micros0ft": replacing the letter o with a zero
+- the email created urgency by saying the password would expire today
+- the greeting was generic and did not addess the user by name
+- the link used HTTP, which is less secure than HTTPS
+- the reset link used an unusual domain
+
+## check needed
+- review the eemail header
+- check whether other user recieved the same email
+- analyse the URL carefully
+- check whether anyone clicked the link 
+
+## recommended actions
+- not clicking the link 
+- report and quarantine the email
+- block the sender or domain if confirmed malicious
+- reset the password only through the official microsoft website
+
+## lesson learnt 
+- phishing emails often use urgency
+- fake domains
+- generic greeting (user should be addressed by name)
+- suspicious links to trick users 
+
