@@ -1,0 +1,43 @@
+Today i learnt how to investigate suspicious powershell activity from a soc analyst perceptive 
+
+## scenario
+the commands were ran on FINANCE-LAPTOP-03:
+
+"powershell.exe  -ExecutionPolicy Bypass - NoProfile -WindowStyle Hidden"
+
+Addition activities: 
+
+- powershell launched from a word document 
+- connected to an external ip address
+- downloaded a file into AppData
+- created a scheduled task
+
+## New concept: Persistance 
+this is a method  that lets suspicious activity carry-on or restart even after the user logs out or the computer restarts 
+
+
+## ## Suspicious Indicators
+- PowerShell was launched from a Word document.
+- The command used ExecutionPolicy Bypass.
+- The command used WindowStyle Hidden.
+- The device connected to an external IP address.
+- A file was downloaded into AppData.
+- A scheduled task was created, which may indicate persistence.
+
+## Evidence Still Needed
+- Check the reputation of the external IP address.
+- Inspect the downloaded file.
+- Review the scheduled task details.
+- Check process logs.
+- Investigate how the Word document arrived on the device.
+- Check whether other devices ran the same command.
+
+## Risk Level
+High
+
+## Recommended Actions
+- Investigate the external IP address.
+- Analyse the downloaded file.
+- Review and remove the scheduled task if confirmed malicious.
+- Isolate the device if malicious activity is suspected.
+- Check other devices for similar PowerShell activity.
